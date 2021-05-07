@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saga Acotar</title>
+    <style>
+        body {
+        font-family: 'Roboto Mono',monospace;
+        text-align:center;
+        background-image: url('https://wallpapercave.com/wp/wp2686204.jpg');
+        background-color: #000000;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        }
+
+        .container {
+        text-align: center;
+        padding: 20px;
+        }
+
+        .page-title {
+        color: #ffffff;
+        margin: 0 0 5px;
+        }
+
+        .page-subtitle {
+        color: #ffffff;
+        margin-top: 5px;
+        }
+
+        .page-logo {
+        width: 200px;
+        }
+
+        .alura-logo {
+        width: 5%;
+        position: absolute;
+        top: 10px;
+        right:10px;
+        }
+
+        body > a > img {
+        margin: 0 10px;
+        max-width: 15%;
+        max-height: 15%;
+        }
+
+    </style>
+</head>
+<body>
+    <a href=""><img class="alura-logo"src="toppng.com-islam-mosque-muslim-moon-ramadan-1200x1200.png"></a>
+
+    <div class="container">
+        <h1 class="page-title">
+            Acotar
+            
+        </h1>
+        <img src="toppng.com-excellent-angel-wings-wall-decal-easy-decals-st17-angel-wings-decal-632x541.png" class="page-logo"
+            alt="">
+        
+    </div>
+
+    <script>
+        var capas = [
+            "https://images-na.ssl-images-amazon.com/images/I/91RU544KgKL.jpg",
+            "https://images-na.ssl-images-amazon.com/images/I/91Sn67XUSHL.jpg",
+            "https://images-na.ssl-images-amazon.com/images/I/81Bh+rbygYL.jpg",
+        ]
+        var link = [
+            "https://www.google.com/aclk?sa=L&ai=DChcSEwjO9Jy6k7jwAhWEDpEKHa4RCNcYABAEGgJjZQ&sig=AOD64_0rCODN2eVLF8cCK7Dn3uaI_tU22A&ctype=5&q=&ved=2ahUKEwjm2ZW6k7jwAhXOq5UCHZovDqAQ9aACegQIARBP&adurl=",
+            "https://www.google.com/aclk?sa=L&ai=DChcSEwjO9Jy6k7jwAhWEDpEKHa4RCNcYABAGGgJjZQ&sig=AOD64_3OoBC8cBYVXHsf1B_Sr9U0K6_uPw&ctype=5&q=&ved=2ahUKEwjm2ZW6k7jwAhXOq5UCHZovDqAQ9aACegQIARBV&adurl=",
+            "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjVu4DTk7jwAhWKrpUCHRQKBQwQFjAAegQIAhAD&url=https%3A%2F%2Fwww.amazon.com.br%2FCorte-asas-ru%25C3%25ADna-espinhos-rosas%2Fdp%2F8501110124&usg=AOvVaw00y2Pirj44cRdpArFOgQfT"
+        ]
+        var tentativas = 3
+        for(t = 0; t < capas.length; t++){
+            document.write("<a href=" + link[t] + "target=" + "_blank" + ">" + "<img src=" + capas[t] + "> </a>")
+        }
+
+    </script>
+</body>
+</html>
