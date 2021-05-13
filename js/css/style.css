@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+}
+.parallax{
+    height: 1000px;
+    background-image: url('https://wallpapercave.com/wp/wp2686204.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax{
+    padding-top: 10px;
+    text-align: center;
+}
+.parallax h1{
+    color: aliceblue;
+    font: 50px Arial;
+    font-weight: 900;
+}
+.parallax p{
+    color: white;
+    font:16px Arial;
+    padding-bottom: 3%;
+}
+.page-logo {
+width: 200px;
+clear: both;
+}
+
+.navbar-brand>.logo{
+    width: 10%;
+    height: 10%;
+    float: right;
+}
+
+.carousel{
+    margin-top: 5%;
+    text-align: center;
+    max-height: 20%;
+    max-width: 20%;
+    margin-left: 40%;
+}
+.carousel, a > img {
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    color: white;
+    width: 100%;
+}
+.navbar a{
+    text-align: center;
+}
+.dropdown-menu{
+    background: rgba(84, 77, 180, 0.3);
+}
+.dropdown-item{
+    color: red;
+}
+.nav-link{
+    color: beige;
+    
+}
+
+a:hover,a:visited:hover { color: #5116af; }
+
+.nav-link :active{
+    color:brown;
+}
+
+.espinhosERosas{
+    height: 1100px;
+    background-image: url('https://pbs.twimg.com/media/E1MaTUuXoAU2yYX?format=jpg&name=large');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nevoaEFuria{
+    height: 1100px;
+    background-image: url('https://3.bp.blogspot.com/-_0yxJ2bp4jo/WULUMgCUwTI/AAAAAAAAAvY/e22QC-8SahkInPZyymhZpTjMdgZ28D2cACLcBGAs/s1600/foto17.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.asasERuinas{
+    height: 1100px;
+    background-image: url('https://i.pinimg.com/originals/3a/7c/bb/3a7cbb7e17fc2f0a4da399706e6dde2a.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.conteudo{
+    background-color: rgba(3, 3, 3, 0.226);
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.conteudo h1{
+    font: 40px Arial;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.conteudo p{
+    font: 17px Arial;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
