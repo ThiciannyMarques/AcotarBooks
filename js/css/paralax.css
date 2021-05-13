@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    height: 500px;
+    background-image: url('https://images8.alphacoders.com/112/1124788.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax div{
+    padding-top: 170px;
+    text-align: center;
+}
+.parallax h1{
+    color: aliceblue;
+    font: 50px Arial;
+    font-weight: 900;
+}
+.parallax p{
+    color: white;
+    font:16px Arial;
+    padding-bottom: 3%;
+}
+a.button{
+    color: black;
+    background:blanchedalmond;
+    padding: 20px 40px;
+    font: 18px Arial;
+    text-decoration: none;
+    border-radius: 15px;
+}
+a.button:hover{
+    background-color: crimson;
+}
+.conteudo{
+    background-image: url('../nobara-kugisaki-jujutsu-kaisen-uhdpaper.com-4K-mobile-7.3205.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box-conteudo{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.box-conteudo h1{
+    font: 40px Arial;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.box-conteudo p{
+    font: 16px Arial;
+    padding-bottom: 10px;
+}
