@@ -2,18 +2,16 @@ body{
     background-color: black;
 }
 .parallax{
-    height: 1000px;
+    height: 1100px;
     background-image: url('https://wallpapercave.com/wp/wp2686204.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-.parallax{
-    padding-top: 10px;
     text-align: center;
 }
 .parallax h1{
+    margin-top: 6%;
     color: aliceblue;
     font: 50px Arial;
     font-weight: 900;
@@ -24,16 +22,9 @@ body{
     padding-bottom: 3%;
 }
 .page-logo {
-width: 200px;
-clear: both;
+    width: 200px;
+    clear: both;
 }
-
-.navbar-brand>.logo{
-    width: 10%;
-    height: 10%;
-    float: right;
-}
-
 .carousel{
     margin-top: 5%;
     text-align: center;
@@ -46,27 +37,38 @@ clear: both;
     height: 100%;
 }
 .navbar{
-    color: white;
     width: 100%;
+    background-color: rgba(24, 17, 124, 0.698);
 }
-.navbar a{
+.navbar-brand>.logo{
+    width: 10%;
+    height: 10%;
+    float: right;
+}
+
+.navbar .nav-link{
     text-align: center;
+    font-size: large;
+    color: rgba(139, 213, 223, 0.849);
 }
 .dropdown-menu{
-    background: rgba(84, 77, 180, 0.3);
+    background: rgba(84, 77, 180, 0.9);
 }
 .dropdown-item{
-    color: red;
+    color: rgb(190, 112, 243);
+    font-weight: 500; 
 }
 .nav-link{
     color: beige;
     
 }
-
-a:hover,a:visited:hover { color: #5116af; }
-
+a:hover,a:visited:hover { color: #896baf; }
 .nav-link :active{
     color:brown;
+}
+
+.page-title{
+    margin-top: 6%;
 }
 
 .espinhosERosas{
@@ -102,8 +104,10 @@ a:hover,a:visited:hover { color: #5116af; }
     text-align: center;
     font-weight: 600;
     padding-bottom: 25px;
+    margin-top: 6%;
 }
 .conteudo p{
+    margin-top: 3%;
     font: 17px Arial;
     padding-bottom: 10px;
     font-weight: 300;
