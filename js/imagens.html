@@ -75,44 +75,4 @@
         </div>
       </div>
 </body>
-
-<script>
-    function adicionarFilme() {
-    var campoFilmeFavorito = document.getElementById('filme')
-    var filmeFavorito = campoFilmeFavorito.value
-        listarFilmesNaTela(filmeFavorito)
-}
-
-function listarFilmesNaTela(filme) {
-    var listaFilmes = document.querySelector('#listaFilmes')
-    var elementoFilme = "<img src=" + filme + ">"
-    listaFilmes.innerHTML = listaFilmes.innerHTML + elementoFilme
-}
-
-        var capas = [
-            "https://images-na.ssl-images-amazon.com/images/I/91RU544KgKL.jpg",
-            "https://images-na.ssl-images-amazon.com/images/I/91Sn67XUSHL.jpg",
-            "https://images-na.ssl-images-amazon.com/images/I/81Bh+rbygYL.jpg",
-        ]
-        var tentativas = 3;
-        var html = ""
-        for(t = 0; t < capas.length; t++){
-            html += templateCarosel(templateImagem(capas[t]), t === 0 ? true : false);
-        }
-        var div = document.getElementById("card")
-        div.innerHTML = html;
-
-        function templateImagem(imagem) {
-          return `<img class="d-block w-100" src="${imagem}">`;
-        }
-
-        function templateCarosel(imagem, active = false) {
-          return `<div class="carousel-item col-md-4 ${active ? 'active' : ''}">
-                    <div class="card">
-                        ${imagem}
-                    </div>
-                </div>`;
-        }
-
-</script>
 </html>
