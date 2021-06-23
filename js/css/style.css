@@ -1,7 +1,7 @@
-/*Pagina: Imagens, carousel com cards*/
-@media (min-width: 768px) {
+/*ERRO NO CAROUSEL, CONCATENA E FUNCIONA SOMENTE QUANDO SE ESTÁ NO LAYOUT DE MOBILE*/
+/* @media (min-width: 768px) { */
     /* show 3 items */
-    .carousel-inner .active,
+    /* .carousel-inner .active,
     .carousel-inner .active + .carousel-item,
     .carousel-inner .active + .carousel-item + .carousel-item {
       display: block;
@@ -26,30 +26,30 @@
       z-index: -1;
       display: block;
       visibility: visible;
-    }
+    } */
   
     /* left or forward direction */
-    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    /* .active.carousel-item-left + .carousel-item-next.carousel-item-left,
     .carousel-item-next.carousel-item-left + .carousel-item,
     .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
     .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
-    }
+    } */
   
     /* farthest right hidden item must be abso position for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
+    /* .carousel-inner .carousel-item-prev.carousel-item-right {
       position: absolute;
       top: 0;
       left: 0;
       z-index: -1;
       display: block;
       visibility: visible;
-    }
+    } */
   
     /* right or prev direction */
-    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    /* .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
     .carousel-item-prev.carousel-item-right + .carousel-item,
     .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
     .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
@@ -59,12 +59,13 @@
       display: block;
       visibility: visible;
     }
-  }
+  } */
 
 /*Pagina principal*/
 body{
     background-color: black;
 }
+
 .parallax{
     height: 1100px;
     background-image: url('https://wallpapercave.com/wp/wp2686204.jpg');
@@ -89,20 +90,22 @@ body{
     width: 200px;
     clear: both;
 }
-.carousel{
-    margin-top: 5%;
+
+.slide{
     text-align: center;
     max-height: 20%;
     max-width: 20%;
-    margin-left: 40%;
+    margin: auto;
 }
 .carousel, a > img {
     width: 100%;
     height: 100%;
 }
+
 .navbar{
     width: 100%;
     background-color: rgba(24, 17, 124, 0.698);
+
 }
 .navbar-brand>.logo{
     width: 10%;

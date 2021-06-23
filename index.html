@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="js/css/style.css">
-    <link rel="stylesheet" href="JavaScript/script.js">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-gradient fixed-top">
@@ -48,7 +47,7 @@
             </ul>
           </div>
         </div>
-        <a class="navbar-brand" href="#"><img class="logo"src="toppng.com-islam-mosque-muslim-moon-ramadan-1200x1200.png"></a>
+        <a class="navbar-brand" href="#"><img class="logo" src="js/toppng.com-islam-mosque-muslim-moon-ramadan-1200x1200.png"></a>
 
     </nav>
     <div>
@@ -57,15 +56,15 @@
         <h1 class="page-title">
             Acotar       
         </h1>
-        <img src="/js/toppng.com-excellent-angel-wings-wall-decal-easy-decals-st17-angel-wings-decal-632x541.png"  class="page-logo"
-            alt=""><br>
+        <img src="js/toppng.com-excellent-angel-wings-wall-decal-easy-decals-st17-angel-wings-decal-632x541.png"  class="page-logo" alt=""><br>
         
     </div>
+    
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner" id="legal">
-      </div>
-     
+      </div> 
     </div>
+
   </section>
     <section class="espinhosERosas"  id="espinhosERosas" >
       <div class="conteudo">
@@ -187,6 +186,7 @@
         "https://www.google.com/aclk?sa=L&ai=DChcSEwjO9Jy6k7jwAhWEDpEKHa4RCNcYABAGGgJjZQ&sig=AOD64_3OoBC8cBYVXHsf1B_Sr9U0K6_uPw&ctype=5&q=&ved=2ahUKEwjm2ZW6k7jwAhXOq5UCHZovDqAQ9aACegQIARBV&adurl=",
         "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjVu4DTk7jwAhWKrpUCHRQKBQwQFjAAegQIAhAD&url=https%3A%2F%2Fwww.amazon.com.br%2FCorte-asas-ru%25C3%25ADna-espinhos-rosas%2Fdp%2F8501110124&usg=AOvVaw00y2Pirj44cRdpArFOgQfT"
     ]
+
     var tentativas = 3;
     var html = ""
     // minhaClasse = new TemplateHTML();
@@ -205,9 +205,7 @@
     }
 
     function templateCarosel(imagem, active = false) {
-      return `<div class="carousel-item ${active ? 'active' : ''}"><div class="card-group" >
-      <div class="card">${imagem}</div>
-    </div></div></div>`;
+      return `<div class="carousel-item ${active ? 'active' : ''}">${imagem}</div>`;
     }
 
 </script>
