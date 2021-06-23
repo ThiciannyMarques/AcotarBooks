@@ -124,7 +124,6 @@ body{
 }
 .nav-link{
     color: beige;
-    
 }
 a:hover,a:visited:hover { color: #896baf; }
 .nav-link :active{
@@ -176,7 +175,6 @@ a:hover,a:visited:hover { color: #896baf; }
     padding-bottom: 10px;
     font-weight: 300;
 }
-
 
 /*Imagens*/
 .input-imagem{
