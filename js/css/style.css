@@ -103,8 +103,30 @@ body{
 }
 
 .navbar{
+    top: 0;
+    height: 7%;
     width: 100%;
-    background-color: rgba(24, 17, 124, 0.698);
+    display: flex;
+    background-image: linear-gradient(90deg, #cf1ae0 0%, #14afd6 49%, #adaa15 80%, #cf1ae0 100%);
+    animation: slidebg 9s linear infinite;
+}
+/*.navbar::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 399px;
+    
+    z-index: -1;
+    background-image: linear-gradient(90deg, #cf1ae0 0%, #14afd6 49%, #adaa15 80%, #cf1ae0 100%);
+    animation: slidebg 9s linear infinite;
+    transform: rotate(4deg);
+  }*/
+@keyframes slidebg {
+to{
+    background-position: 20vw;
+}
 
 }
 .navbar-brand>.logo{
@@ -185,3 +207,35 @@ a:hover,a:visited:hover { color: #896baf; }
     text-align: center;
     color: aliceblue;
 }
+input{
+    border-radius: 3px;
+    border: none;
+}
+.btn{
+    width: 10%;
+    margin:auto;
+    margin-top: 3%;
+    background-image: linear-gradient(90deg, #cf1ae0 0%, #14afd6 49%, #adaa15 80%, #cf1ae0 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    animation: slidebg 5s linear infinite;
+  }
+  
+  .btn::after{
+    content: attr(alt);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+@keyframes slidebg {
+    to{
+      background-position: 20vw;
+    }
+} 
